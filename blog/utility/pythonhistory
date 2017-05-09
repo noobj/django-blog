@@ -1,0 +1,158 @@
+import urllib
+import urllib.request
+%history
+history
+help
+help()
+headers = {}
+quit
+headers = {}
+headers['User-Agent'] = "Magic Browser"
+req = urllib.request.Request("https://www.ptt.cc/bbs/CodeJob/index.html", headers=headers);
+urllib.request.urlopen(req).read()
+from blog.utility.crawler import Crawler
+crawler = Crawler('程式')
+crawler.start()
+a = crawler.start()
+a
+type(a)
+type(req)
+from bs4 import BeautifulSoup
+BeautifulSoup(urllib.request.urlopen(req).read(), "html.parser")
+
+code
+for i in code.find_all(class_='r-ent'):
+    if i.a and keyword in i.a.getText():
+        return i.a.getText()
+for i in code.find_all(class_='r-ent'):
+    if i.a and keyword in i.a.getText():
+	    
+	    break;
+for i in code.find_all(class_='r-ent'):
+    if i.a and keyword in i.a.getText():
+	    tmp = i
+code
+keyword = 'MATLAB'
+for i in code.find_all(class_='r-ent'):
+    if i.a and keyword in i.a.getText():
+	    tmp = i
+tmp
+tmp.a.get('href')
+href = tmp.a.get('href')
+href
+
+url = "https://www.ptt.cc{0}".format(href)
+url
+req =  urllib.request.Request(url, headers=headers);
+req
+BeautifulSoup(urllib.request.urlopen(req).read()
+BeautifulSoup(urllib.request.urlopen(req).read())
+fuck = BeautifulSoup(urllib.request.urlopen(req).read())
+fuck.getText()
+print(fuck.getText())
+fuck.getText()
+cunt = urllib.request.urlopen(req).read()
+cunt
+cunt.encode('utf-8')
+cunt.decode('utf-8')
+s = cunt.decode('utf-8')
+s
+type(s)
+type(cunt)
+import re
+pattern = re.compile('聯絡方式(.*?)預算',re.S)
+re.search(pattern, s)
+result = re.search(pattern, s)
+result
+result.group(1)
+result.group(0)
+result.group(1)
+result
+type(result)
+result.group(0)
+pattern = re.compile('聯絡方式(.*?)預算')
+result = re.search(pattern, s)
+result
+s
+pattern = re.compile('聯絡方式(.*)預算')
+pattern
+result = re.search(pattern, s)
+result
+pattern = re.compile('聯絡方式(.*)：')
+result = re.search(pattern, s)
+result
+result.group(0)
+result.group(1)
+result.group(2)
+result.group(1)
+result.group(0)
+pattern = re.compile('聯絡方式(.*)預算', re.S)
+result = re.search(pattern, s)
+result
+result.group(0)
+result.group(1)
+s
+result.group(1)
+result = re.match(pattern, s)
+result
+result = re.search(pattern, s)
+result
+pattern = re.compile('聯絡方式(.*?)預算', re.S)
+result = re.search(pattern, s)
+result
+result.group(0)
+result.group(1)
+result.group(2)
+result.group(1)
+pattern = re.compile('聯絡方式.*預算', re.S)
+result = re.search(pattern, s)
+result
+result.group(0)
+result.group(1)
+result = re.search(pattern, fuck)
+fuck
+result = re.search(pattern, fuck)
+type(fuck)
+type(fuck.text)
+result = re.search(pattern, fuck.text)
+result
+result.group(0)
+print(result.group(0))
+history
+%history
+help
+help()
+history
+help(history)
+ls
+print(result.group(0))
+fuck
+print fuck
+print(fuck)
+fuck.text
+print(fuck.text)
+from django.utils.html import strip_tags
+
+print(fuck.text.strip())
+
+pattern = re.compile('\(function.*;', re.S)
+re.search(pattern, fuck.text)
+abc = re.search(pattern, fuck.text)
+abc
+abc.group(0)
+pattern = re.compile('\(function.*\);', re.S)
+abc = re.search(pattern, fuck.text)
+abc.group(0)
+abc.group(1)
+abc.group(0)
+print(fuck.text)
+readline
+import readline
+for i in range(readline.get_current_history_length()):
+    print readline.get_history_item(i + 1)
+for i in range(readline.get_current_history_length()):
+    print(readline.get_history_item(i + 1))
+historyPath = os.path.expanduser("~/.pyhistory")
+import os
+historyPath = os.path.expanduser("~/.pyhistory")
+readline.write_history_file(historyPath)
